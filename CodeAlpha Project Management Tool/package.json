@@ -1,0 +1,16 @@
+{
+  "name": "collab-board",
+  "version": "1.0.0",
+  "description": "Full-stack collaborative project management tool with auth, boards, tasks, comments, and realtime notifications.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "project-management",
+    "kanban",
+    "collaboration"
+  ],
+  "author": "",
+  "license": "MIT"
+}
