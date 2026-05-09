@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketLane Store</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#/">MarketLane</a>
+      <nav class="nav-actions" aria-label="Main navigation">
+        <a href="#/">Products</a>
+        <a href="#/orders">Orders</a>
+        <a class="cart-link" href="#/cart">Cart <span id="cart-count">0</span></a>
+        <button id="auth-button" type="button">Login</button>
+      </nav>
+    </header>
+
+    <main id="app" class="app-shell"></main>
+
+    <dialog id="auth-dialog" class="auth-dialog">
+      <form id="auth-form" method="dialog">
+        <button class="icon-button close-dialog" type="button" aria-label="Close">x</button>
+        <h2 id="auth-title">Login</h2>
+        <div class="auth-tabs">
+          <button class="active" id="login-tab" type="button">Login</button>
+          <button id="register-tab" type="button">Register</button>
+        </div>
+        <label>
+          Name
+          <input id="auth-name" name="name" autocomplete="name" />
+        </label>
+        <label>
+          Email
+          <input id="auth-email" name="email" type="text" inputmode="email" autocomplete="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" />
+        </label>
+        <label>
+          Password
+          <input id="auth-password" name="password" type="password" autocomplete="current-password" required minlength="6" />
+        </label>
+        <p class="form-message" id="auth-message"></p>
+        <button class="primary-button" type="submit">Continue</button>
+      </form>
+    </dialog>
+
+    <template id="product-card-template">
+      <article class="product-card">
+        <a class="product-image-link">
+          <img alt="" />
+        </a>
+        <div class="product-card-body">
+          <p class="eyebrow"></p>
+          <h3></h3>
+          <p class="muted"></p>
+          <div class="card-footer">
+            <strong></strong>
+            <button type="button">Add</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

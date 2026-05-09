@@ -1,0 +1,13 @@
+{
+  "name": "simple-ecommerce-store",
+  "version": "1.0.0",
+  "description": "Basic e-commerce store with product listings, cart, authentication, and order processing.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

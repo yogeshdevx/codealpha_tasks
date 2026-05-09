@@ -1,0 +1,237 @@
+{
+  "products": [
+    {
+      "id": "coffee-grinder",
+      "name": "Burr Coffee Grinder",
+      "category": "Kitchen",
+      "price": 48.99,
+      "rating": 4.8,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1515283709260-ee29296f1534?auto=format&fit=crop&w=900&q=80",
+      "description": "A compact grinder with stainless burrs, consistent texture, and 16 grind settings for espresso, pour-over, and French press."
+    },
+    {
+      "id": "linen-tote",
+      "name": "Everyday Linen Tote",
+      "category": "Accessories",
+      "price": 34.5,
+      "rating": 4.6,
+      "stock": 42,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=80",
+      "description": "A durable, lightweight tote with an inner pocket and reinforced handles for daily errands, campus, and commute."
+    },
+    {
+      "id": "desk-lamp",
+      "name": "Adjustable Desk Lamp",
+      "category": "Home Office",
+      "price": 59,
+      "rating": 4.7,
+      "stock": 13,
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80",
+      "description": "Warm-to-cool LED lighting, a tilting arm, and a small footprint for focused work without harsh glare."
+    },
+    {
+      "id": "ceramic-planter",
+      "name": "Ceramic Planter Set",
+      "category": "Decor",
+      "price": 27.25,
+      "rating": 4.5,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+      "description": "Three matte ceramic planters with drainage trays, sized for herbs, succulents, and small indoor plants."
+    },
+    {
+      "id": "travel-mug",
+      "name": "Insulated Travel Mug",
+      "category": "Drinkware",
+      "price": 22.99,
+      "rating": 4.4,
+      "stock": 31,
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=80",
+      "description": "A leak-resistant stainless mug that keeps coffee hot through the morning and fits most car cup holders."
+    },
+    {
+      "id": "notebook-pack",
+      "name": "Softcover Notebook Pack",
+      "category": "Stationery",
+      "price": 16.75,
+      "rating": 4.9,
+      "stock": 54,
+      "image": "https://images.unsplash.com/photo-1531346680769-a1d79b57de5c?auto=format&fit=crop&w=900&q=80",
+      "description": "Three thread-bound notebooks with smooth dot-grid paper for planning, sketching, and study notes."
+    }
+  ],
+  "users": [
+    {
+      "id": "f9f165ab-dc10-47b1-ba4b-834a069da129",
+      "name": "YOGESH",
+      "email": "yogeshxverma@gmail.com",
+      "passwordHash": "cec5db0477c98889954c27b0368dcbad:d89f21469b010d153ac48eb4efbee23f3896018c02749f227c8c050767e7dc5645c118fe6846fec85383c45b1ffe9797928d8758c69e34b2d39010398345a270"
+    }
+  ],
+  "orders": [
+    {
+      "id": "edb4eff3-5152-4b37-bcbd-1fe0782bf2bc",
+      "userId": "f9f165ab-dc10-47b1-ba4b-834a069da129",
+      "items": [
+        {
+          "productId": "coffee-grinder",
+          "name": "Burr Coffee Grinder",
+          "price": 48.99,
+          "quantity": 12,
+          "lineTotal": 587.88
+        },
+        {
+          "productId": "linen-tote",
+          "name": "Everyday Linen Tote",
+          "price": 34.5,
+          "quantity": 5,
+          "lineTotal": 172.5
+        },
+        {
+          "productId": "desk-lamp",
+          "name": "Adjustable Desk Lamp",
+          "price": 59,
+          "quantity": 29,
+          "lineTotal": 1711
+        },
+        {
+          "productId": "ceramic-planter",
+          "name": "Ceramic Planter Set",
+          "price": 27.25,
+          "quantity": 25,
+          "lineTotal": 681.25
+        },
+        {
+          "productId": "travel-mug",
+          "name": "Insulated Travel Mug",
+          "price": 22.99,
+          "quantity": 6,
+          "lineTotal": 137.94
+        },
+        {
+          "productId": "notebook-pack",
+          "name": "Softcover Notebook Pack",
+          "price": 16.75,
+          "quantity": 24,
+          "lineTotal": 402
+        }
+      ],
+      "shippingAddress": {
+        "name": "YOGESH",
+        "address": "Creative Street, Bengaluru",
+        "city": "Bengaluru"
+      },
+      "payment": "Card",
+      "subtotal": 3692.57,
+      "shipping": 0,
+      "total": 3692.57,
+      "status": "Processing",
+      "createdAt": "2026-05-09T17:15:12.612Z"
+    },
+    {
+      "id": "6bb89587-3b55-4c86-8069-203ac47a4d2e",
+      "userId": "f9f165ab-dc10-47b1-ba4b-834a069da129",
+      "items": [
+        {
+          "productId": "notebook-pack",
+          "name": "Softcover Notebook Pack",
+          "price": 16.75,
+          "quantity": 1,
+          "lineTotal": 16.75
+        },
+        {
+          "productId": "coffee-grinder",
+          "name": "Burr Coffee Grinder",
+          "price": 48.99,
+          "quantity": 1,
+          "lineTotal": 48.99
+        },
+        {
+          "productId": "linen-tote",
+          "name": "Everyday Linen Tote",
+          "price": 34.5,
+          "quantity": 1,
+          "lineTotal": 34.5
+        },
+        {
+          "productId": "desk-lamp",
+          "name": "Adjustable Desk Lamp",
+          "price": 59,
+          "quantity": 1,
+          "lineTotal": 59
+        },
+        {
+          "productId": "ceramic-planter",
+          "name": "Ceramic Planter Set",
+          "price": 27.25,
+          "quantity": 1,
+          "lineTotal": 27.25
+        },
+        {
+          "productId": "travel-mug",
+          "name": "Insulated Travel Mug",
+          "price": 22.99,
+          "quantity": 1,
+          "lineTotal": 22.99
+        }
+      ],
+      "shippingAddress": {
+        "name": "YOGESH",
+        "address": "creative street, Bengaluru",
+        "city": "Bengaluru"
+      },
+      "payment": "Card",
+      "subtotal": 209.48,
+      "shipping": 0,
+      "total": 209.48,
+      "status": "Processing",
+      "createdAt": "2026-05-09T17:13:39.998Z"
+    },
+    {
+      "id": "f8a15536-ce5a-4cb3-8392-22f79df7540f",
+      "userId": "f9f165ab-dc10-47b1-ba4b-834a069da129",
+      "items": [
+        {
+          "productId": "coffee-grinder",
+          "name": "Burr Coffee Grinder",
+          "price": 48.99,
+          "quantity": 1,
+          "lineTotal": 48.99
+        },
+        {
+          "productId": "notebook-pack",
+          "name": "Softcover Notebook Pack",
+          "price": 16.75,
+          "quantity": 1,
+          "lineTotal": 16.75
+        },
+        {
+          "productId": "desk-lamp",
+          "name": "Adjustable Desk Lamp",
+          "price": 59,
+          "quantity": 1,
+          "lineTotal": 59
+        }
+      ],
+      "shippingAddress": {
+        "name": "YOGESH",
+        "address": "Tech valley, creative street, Bengaluru",
+        "city": "Bengaluru"
+      },
+      "payment": "Card",
+      "subtotal": 124.74,
+      "shipping": 0,
+      "total": 124.74,
+      "status": "Processing",
+      "createdAt": "2026-05-09T17:09:13.277Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "a4c01c4801f69f68790585a5fdc7e4e8878ce28b23e2914d8d3c1b752d38ebfa",
+      "userId": "f9f165ab-dc10-47b1-ba4b-834a069da129",
+      "createdAt": "2026-05-09T17:12:43.543Z"
+    }
+  ]
+}
